@@ -17,3 +17,10 @@ def process_input(name, age, favorite_color):
 
     days_alive = age * 365
     print(f"You've been alive for approximately {days_alive} days!")
+
+    if favorite_color.lower() == 'blue':
+        print("Blue is such a calming and cool color!")
+    elif favorite_color.lower() == 'red':
+        print("Red is a bold and energetic color!")
+    else:
+        print(f"{favorite_color.capitalize()} is a fantastic color!")
