@@ -7,7 +7,21 @@ This project is an interactive Python program that asks the user several questio
 - Takes user input
 - Performs calculations and data transformations
 - Displays results in a cool way
-- 
+
+## How to Run:
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/<YourUsername>/CoolInputProcessor.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd CoolInputProcessor
+    ```
+3. Run the Python script:
+    ```bash
+    python main.py
+    ```
+    
 ## Requirements:
 - Python 3.7+ (make sure it's installed)
 
