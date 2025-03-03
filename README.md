@@ -14,7 +14,7 @@ This project is an interactive Python program that asks the user several questio
     git clone https://github.com/michaelninder/CoolInputProcessor.git
     ```
 2. Navigate to the project directory:
-    ```bash
+    ```
     cd CoolInputProcessor
     ```
 3. Run the Python script:
