@@ -30,3 +30,8 @@ This project is open-source and free to use under the MIT License.
 
 ## Contact:
 Feel free to reach out for suggestions or questions at [michaelninder@xpsystems.eu].
+
+
+---
+
+Enjoy interacting with the program and learning about yourself!
