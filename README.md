@@ -18,7 +18,7 @@ This project is an interactive Python program that asks the user several questio
     cd CoolInputProcessor
     ```
 3. Run the Python script:
-    ```bash
+    ```
     python main.py
     ```
     
