@@ -1,5 +1,8 @@
 # main.py
 
+def wait_for_enter():
+    input("Press Enter to continue...")
+
 def get_user_input():
     name = input("What's your name? ")
     age = input("How old are you? ")
@@ -11,7 +14,7 @@ def get_user_input():
 
 def process_input(name, age, favorite_color, hobby, favorite_food, dream_destination):
     print(f"\nHello, {name}! Let's do some fun calculations and insights with your details.")
-    input("Press Enter to continue...")
+    wait_for_enter()
     
     try:
         age = int(age)
@@ -24,7 +27,7 @@ def process_input(name, age, favorite_color, hobby, favorite_food, dream_destina
     hours_alive = days_alive * 24
 
     print(f"\nYou've been alive for approximately {days_alive} days, or {hours_alive} hours!")
-    input("Press Enter to continue...")
+    wait_for_enter()
 
     print("\nLet's talk about your favorite color!")
     if favorite_color.lower() == 'blue':
@@ -34,7 +37,7 @@ def process_input(name, age, favorite_color, hobby, favorite_food, dream_destina
     else:
         print(f"{favorite_color.capitalize()} is a beautiful and unique color!")
     
-    input("Press Enter to continue...")
+    wait_for_enter()
 
     # Follow-up on the favorite color
     if favorite_color.lower() == 'blue':
@@ -42,13 +45,13 @@ def process_input(name, age, favorite_color, hobby, favorite_food, dream_destina
     elif favorite_color.lower() == 'green':
         print("\nGreen is the color of nature! Maybe you'd enjoy a hike in a forest or a park.")
     
-    input("Press Enter to continue...")
+    wait_for_enter()
 
     # Hobbies and favorite food
     print(f"\nYour hobby is {hobby}. That's awesome! Hobbies are a great way to unwind and enjoy life.")
     print(f"Your favorite food is {favorite_food}. Yummy! Have you ever tried cooking it yourself?")
     
-    input("Press Enter to continue...")
+    wait_for_enter()
 
     # Age-related wisdom
     if age < 20:
@@ -60,11 +63,11 @@ def process_input(name, age, favorite_color, hobby, favorite_food, dream_destina
     else:
         print("\nYou are a treasure trove of experiences! You've seen so much and have a wealth of stories to share.")
     
-    input("Press Enter to continue...")
+    wait_for_enter()
 
     # Dream destination follow-up
     print(f"\nYour dream destination is {dream_destination}. That sounds amazing! Imagine the adventures you'd have there.")
-    input("Press Enter to continue...")
+    wait_for_enter()
 
     # Fun facts based on age
     if age < 30:
@@ -74,11 +77,11 @@ def process_input(name, age, favorite_color, hobby, favorite_food, dream_destina
     elif age >= 50:
         print("\nYou've lived through quite a journey. Your wisdom and experiences are treasures for those around you.")
     
-    input("Press Enter to continue...")
+    wait_for_enter()
 
     # Philosophical Question
     print("\nIf you could change one thing about the world, what would it be? Let's think big!")
-    input("Press Enter to continue...")
+    wait_for_enter()
 
     print(f"\nBy the way, if you could teleport anywhere right now, where would it be? Maybe {dream_destination} will give you a clue about that!")
 
