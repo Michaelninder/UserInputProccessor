@@ -7,7 +7,7 @@ def get_user_input():
   
   return name, age, favorite_color
 
-def process_input(name, age, favorite_color):
+def process_input(name, age, favorite_color, hobby):
     print(f"\nHello, {name}! Let's do some cool calculations based on your data.")
 
     try:
