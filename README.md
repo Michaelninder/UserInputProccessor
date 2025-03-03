@@ -10,7 +10,7 @@ This project is an interactive Python program that asks the user several questio
 
 ## How to Run:
 1. Clone the repository:
-    ```bash
+    ```
     git clone https://github.com/michaelninder/CoolInputProcessor.git
     ```
 2. Navigate to the project directory:
