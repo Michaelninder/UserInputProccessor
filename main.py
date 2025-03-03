@@ -14,3 +14,6 @@ def process_input(name, age, favorite_color):
     except ValueError:
         print("Oops! That doesn't seem to be a valid age.")
         return
+
+    days_alive = age * 365
+    print(f"You've been alive for approximately {days_alive} days!")
