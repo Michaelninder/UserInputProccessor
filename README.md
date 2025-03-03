@@ -10,3 +10,6 @@ This project is an interactive Python program that asks the user several questio
 - 
 ## Requirements:
 - Python 3.7+ (make sure it's installed)
+
+## License:
+This project is open-source and free to use.
