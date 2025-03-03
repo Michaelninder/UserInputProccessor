@@ -24,3 +24,10 @@ def process_input(name, age, favorite_color):
         print("Red is a bold and energetic color!")
     else:
         print(f"{favorite_color.capitalize()} is a fantastic color!")
+
+def main():
+    name, age, favorite_color = get_user_input()
+    process_input(name, age, favorite_color)
+
+if __name__ == "__main__":
+    main()
