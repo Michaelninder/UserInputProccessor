@@ -7,3 +7,6 @@ This project is an interactive Python program that asks the user several questio
 - Takes user input
 - Performs calculations and data transformations
 - Displays results in a cool way
+- 
+## Requirements:
+- Python 3.7+ (make sure it's installed)
